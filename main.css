@@ -1,0 +1,51 @@
+body {
+    background: #f8f8f8;
+    }
+nav {
+    box-shadow: 10px 10px 25px rgba(240, 240, 240);
+}
+.navbar-brand {
+    color: #000000;
+}
+.nav-link {
+    color: #000000;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px; 
+}
+main {
+    margin: auto;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    min-height: calc(45vh - 160px);
+    margin: auto;
+    width: 100%;
+}
+
+#content div {
+    display: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.title-1 .title-2 .title-3 .title-4 {
+    color: #333;
+    align-content:start; 
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+.contact {
+    display: Block;
+    margin: 30%;
+}
