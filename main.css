@@ -91,17 +91,21 @@ article a {
     display: flex;
     height: auto;
     width: 80%;
+    padding-right: 15%;
 }
 .facebook {
 display: flex;
+align-content:center;
 border: 2px solid black;
 }
 .instagram {
 display: flex;
+align-content:center;
 border:  2px solid black
 }
 .twitter{ 
 display: flex;
+align-content:center;
 border:  2px solid black
 }
 @media (min-width: 600px){}
