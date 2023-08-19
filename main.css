@@ -14,19 +14,25 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 15px; 
+    padding:10px; 
+    border-left: 1px solid black;
+    width: 10%;
 }
 main {
     margin: auto;
 }
 #content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: static;
+    flex: auto;
     align-items:center;
-    min-height: calc(45vh - 160px);
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 158px;
     margin: auto;
-    width: 100%;
+    padding-left: 33% ;
+    padding-right: 33% ;
+    width:100% ;
+    box-sizing:border-box;
 }
 
 #content div {
@@ -34,18 +40,40 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     margin: auto;
+    border-bottom: 1px solid black;
 }
-
-.title-1 .title-2 .title-3 .title-4 {
-    color: #333;
-    align-content:start; 
+h1 h2 {
+text-decoration: solid;
 }
-
+.title-2 .title-3 .title-4 {
+    border-bottom: 1px black solid;
+}
 p {
     color: black;
     text-align: left;
 }
-.contact {
-    display: Block;
-    margin: 30%;
+article div {
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 12.8%;
+    padding-left: 36% ;
+    padding-right: 39.5% ;
+    width:105% ;
 }
+article a {
+    display: flex;
+    height: auto;
+    width: 80%;
+}
+.facebook {
+border: 2px solid black;
+}
+.instagram {
+border:  2px solid black
+}
+.twitter{ 
+border:  2px solid black
+}
+@media (min-width: 600px){}
